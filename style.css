@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    background-image: url(https://images.pexels.com/photos/5836/yellow-metal-design-decoration.jpg?auto=compress&cs=tinysrgb&h=650&w=940);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar-light {
+    background-color: black;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: white;
+}
+
+.navbar-brand {
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-outline-secondary {
+    margin: 22vh 50px;
+    width: 15em;
+    font-family: "Impact";
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 50%;
+    height: 15em;
+    font-size: 1.2em;
+}
+
+.btn-outline-secondary:hover {
+    background-color: rgb(4, 3, 14);
+    color: white; 
+}
